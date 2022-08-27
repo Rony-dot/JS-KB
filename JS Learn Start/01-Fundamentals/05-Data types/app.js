@@ -1,13 +1,23 @@
-// primitive
+//## primitive
 // undefined
-let item
+let item //type undefined
 // String
+item = "hello world" // type string
 // Number
+item = 123 // type number
 // Boolean
+item = true // type boolean
 // Null
+item = null // bug: says object, but it's an primitive type
 // Symbol
-// Reference type
+item = Symbol() // type symbol
+//## Reference type
 // array
-// object
-// data
-console.log(type, typeof item)
+item = [12,"hi", 3.4, false]; // type object
+// object //type object
+item = {
+    username: "rony"
+}
+// date
+item = new Date() // type object
+console.log('type', typeof item)
