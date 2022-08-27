@@ -1,0 +1,43 @@
+<body>
+<h1>Welcome to Meteor v2!</h1>
+
+{{> mainApp}}
+
+</body>
+
+<template name="mainApp">
+
+    <h2>Add Tasks</h2>
+    {{#if isUserLogged }}
+        <div class="user">
+            User: <span style="color: blue; font-weight: bold">{{getUser.username}} click to logout</span>
+        </div>
+        {{> my_form }}
+        <h2>Tasks: </h2>
+    {{#if isLoading}}
+        <div class="loading"> loading...</div>
+    {{/if}}
+        <ul>
+            {{#each tasks}}
+                <li>
+                    {{> task }}
+                </li>
+            {{/each}}
+        </ul>
+    {{ else }}
+        <p style="color:red">please log in to add tasks...</p>
+        {{> login}}
+    {{/if }}
+
+</template>
+
+
+
+<template name="my_form">
+    <form class="task_form">
+        <input type="text" name="text" placeholder="insert your text...">
+        {{#if currentUser}}
+            <button type="submit">Add Task</button>
+        {{/if}}
+    </form>
+</template>

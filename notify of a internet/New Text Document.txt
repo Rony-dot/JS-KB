@@ -1,0 +1,28 @@
+notify = document.querySelector(".notify");
+
+window.onload = ()=>{
+    function checkInternet(){
+        let request = new XMLHttpRequest();
+        request.open("GET", "https://jsonplaceholder.typicode.com/posts", true);
+        request.onload = ()=>{
+            if(request.status == 200 && request.status < 300){
+                notify.classList.add("hide");
+            }else{
+                offline();
+            }
+        }
+        
+        request.onerror = ()=>{
+            offline();
+        }
+        request.send();
+    }
+
+    function offline(){
+        notify.classList.remove("hide");
+    }
+
+    setInterval(()=>{
+        checkInternet();
+    }, 100);
+}
