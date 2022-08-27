@@ -17,6 +17,7 @@ const user = {
     age : 24
 }
 console.log(user)
+
 // but object value can be changed
 user.name = "Rakibul"
 console.log(user)
