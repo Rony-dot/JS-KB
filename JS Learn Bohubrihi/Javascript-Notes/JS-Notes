@@ -1,0 +1,17 @@
+#_____________Javascript______________
+    # Javascript is a language of browsers;
+    # It gives life to web pages: slider, clocks, responsive;
+    # Client side scripting language: runs in browsers of users;
+    # It is used along with HTML;
+#____________Server Side development_________
+    # not only in webpage or browser, it is now in server/backend (after introduction of node js)
+    # Android and IOS can be developed using javascript (React native)
+#_____________ Versions_________
+    # Ecmascript 1 : 1997
+    # Ecmascript 6 (ES6): 2015 
+#______________Javascript Engines________
+    # where javascript codes are run;
+    # Google Chrome: V8
+    # Mozila Firefox: SpiderMonkey
+    # Safari: JavascriptCore
+    # Internet Explorer: Chakra
