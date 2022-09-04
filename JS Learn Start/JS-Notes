@@ -1,0 +1,39 @@
+#______________01_Introduction__________#
+
+#_____________Javascript______________
+    # Javascript is a language of browsers;
+    # It gives life to web pages: slider, clocks, responsive;
+    # Client side scripting language: runs in browsers of users;
+    # It is used along with HTML;
+
+#____________Server Side development_________
+    # not only in webpage or browser, it is now in server/backend (after introduction of node js)
+    # Android and IOS can be developed using javascript (React native)
+
+#_____________ Versions_________
+    # Ecmascript 1 : 1997
+    # Ecmascript 6 (ES6): 2015 
+
+#______________Javascript Engines________
+    # where javascript codes are run;
+    # Google Chrome: V8
+    # Mozila Firefox: SpiderMonkey
+    # Safari: JavascriptCore
+    # Internet Explorer: Chakra
+
+#__________Displaying Output_________
+    # 4 methods:
+    # window.alert()
+    # document.write()
+    # innerHTML
+    # console.log()
+    # We can also write javascript codes in browser's console; like document.write() or console.log 
+
+# Difference between console.log() in browsers and our laptop is that we can compile multiple lines at once in our code editor while in browser it only compiles line by line;
+
+#__________ Semicolon ;_________
+    # in javascript after each new line it doesn't matter if we use a semicolon or not; but it is a good practice to use a semicolon after each instructions.
+    # console.log("hi") console.log("hello") -> will give error because there is no semicolon between them, as a result javascript tries to capture them as a single instruction and fails; whereas,
+    # console.log("hi"); console.log("hello") will not give errors;
+    # Also, multiple new line characters also doesn't cause problem in javascript codes; because it captures them as a single new line character;
+#
