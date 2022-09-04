@@ -36,4 +36,10 @@
     # console.log("hi") console.log("hello") -> will give error because there is no semicolon between them, as a result javascript tries to capture them as a single instruction and fails; whereas,
     # console.log("hi"); console.log("hello") will not give errors;
     # Also, multiple new line characters also doesn't cause problem in javascript codes; because it captures them as a single new line character;
-#
+
+#____________ Template Literals: ES6_______________
+    # Using Backtick ``
+    # can use multiline strings; complicated strings that contains integer itself;
+    # var age = 25; console.log(`your age is ${age}`); // your age is 25
+    # console.log(" Hi there,
+    # I am Rakibul Hassan Rony"); // will print the result in multiline as it is;
