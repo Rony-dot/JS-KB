@@ -37,6 +37,7 @@
     # console.log("hi"); console.log("hello") will not give errors;
     # Also, multiple new line characters also doesn't cause problem in javascript codes; because it captures them as a single new line character;
 
+
 #____________ Template Literals: ES6_______________
     # Using Backtick ``
     # can use multiline strings; complicated strings that contains integer itself;
