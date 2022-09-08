@@ -18,16 +18,13 @@
     # ^ => begining
     # $ => end
     # \b => word boundary; example: \b\w{4}\b => word mean hell; meaning => (word) starting of an word, then 4 word char, then ending of a word;
-#
+##_________Character Class________
+    # character Class => []
+    # [abc] => means => a | b | c, but not both a and b and c pasha pashi
+    # (abc|def) => means => abc | def
+    # example: l[yi]nk => lynk link; will not match => lyink or liynk 
+    # [^abc] => means => !a | !b | !c
 
-
-
-
-#
-#
-
-#
-
-#
-#
-####
+$$
+##_________Alernations_________
+    # (abc|def) => means => abc | def
