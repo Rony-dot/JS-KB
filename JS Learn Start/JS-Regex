@@ -1,0 +1,33 @@
+#_________Meta characters________
+##_________Single char______
+    # \d
+    # \w => A-Z a-z 0-9 (word character)
+    # \W => anything that is not a word character or digit
+    # \s => whitespace, tab, but not line break
+    # \S => anything that not is a whitespace
+    # . => any char
+
+##____________Qualifiers:_____________
+    # * => 0 or more
+    # + => 1 or more
+    # ? => 0 or 1; example:   colou?rs? => colours, colour, color, colors
+    # {min,max}
+    # {n}
+
+##_____________Position:___________
+    # ^ => begining
+    # $ => end
+    # \b => word boundary; example: \b\w{4}\b => word mean hell; meaning => (word) starting of an word, then 4 word char, then ending of a word;
+#
+
+
+
+
+#
+#
+
+#
+
+#
+#
+####
